@@ -87,7 +87,25 @@ body {
 }
 
 @media (max-width: 768px) {
-    .wishes {
-        font-size: 32px;
+    @keyframes square-grow {
+        from {
+            width: 0;
+            height: 0;
+        }
+
+        to {
+            width: 350px;
+            height: 350px;
+        }
+    }
+
+    @keyframes xmastree {
+        from {
+            font-size: 0;
+        }
+
+        to {
+            font-size: 225px;
+        }
     }
 }
